@@ -43,7 +43,7 @@
                           </Group>
                       </Group>
                       <EmptySpace pref="1181" max="32767" attributes="0"/>
-                      <Component id="jLabel2" min="-2" pref="486" max="-2" attributes="0"/>
+                      <Component id="lblImage2" min="-2" pref="486" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
@@ -67,7 +67,7 @@
                       <EmptySpace min="-2" pref="114" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
                           <Group type="102" alignment="1" attributes="0">
-                              <Component id="jLabel2" min="-2" pref="353" max="-2" attributes="0"/>
+                              <Component id="lblImage2" min="-2" pref="353" max="-2" attributes="0"/>
                               <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
                               <Group type="103" groupAlignment="3" attributes="0">
                                   <Component id="jSpinner1" alignment="3" min="-2" pref="35" max="-2" attributes="0"/>
@@ -124,10 +124,10 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel4">
     </Component>
-    <Component class="javax.swing.JLabel" name="jLabel2">
+    <Component class="javax.swing.JLabel" name="lblImage2">
       <Properties>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\LUID1.7\Documents\NetBeansProjects\prg03luidemanuelsantosdosanjos\src\main\java\br\com\ifba\atividade03\images\final2.png"/>
+          <Image iconType="2" name="C:\Users\LUID1.7\Documents\GitHub\prg03luidemanuelsantosdosanjos\prg03luidemanuelsantosdosanjos\src\main\java\br\com\ifba\atividade03\images\final2.png"/>
         </Property>
       </Properties>
     </Component>
@@ -163,7 +163,7 @@
           <Font name="Segoe UI" size="12" style="1"/>
         </Property>
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="2" name="C:\Users\LUID1.7\Documents\NetBeansProjects\prg03luidemanuelsantosdosanjos\src\main\java\br\com\ifba\atividade03\images\calculadora 4.png"/>
+          <Image iconType="2" name="C:\Users\LUID1.7\Documents\GitHub\prg03luidemanuelsantosdosanjos\prg03luidemanuelsantosdosanjos\src\main\java\br\com\ifba\atividade03\images\calculadora 4.png"/>
         </Property>
         <Property name="text" type="java.lang.String" value="CALCULAR"/>
       </Properties>

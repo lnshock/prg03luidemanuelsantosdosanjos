@@ -14,6 +14,7 @@ public class Calculadora extends javax.swing.JFrame {
 
     /**
      * Creates new form Calculadora
+     * 
      */
     public Calculadora() {
         initComponents();
@@ -32,7 +33,7 @@ public class Calculadora extends javax.swing.JFrame {
         jSpinner1 = new javax.swing.JSpinner();
         lblInformacao2 = new javax.swing.JLabel();
         jLabel4 = new javax.swing.JLabel();
-        jLabel2 = new javax.swing.JLabel();
+        lblImage2 = new javax.swing.JLabel();
         lblResultado = new javax.swing.JLabel();
         lblInformacao = new javax.swing.JLabel();
         btncalcular = new javax.swing.JButton();
@@ -48,7 +49,7 @@ public class Calculadora extends javax.swing.JFrame {
 
         lblInformacao2.setText("DATA DE NASCIMENTO");
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\LUID1.7\\Documents\\NetBeansProjects\\prg03luidemanuelsantosdosanjos\\src\\main\\java\\br\\com\\ifba\\atividade03\\images\\final2.png")); // NOI18N
+        lblImage2.setIcon(new javax.swing.ImageIcon("C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos\\src\\main\\java\\br\\com\\ifba\\atividade03\\images\\final2.png")); // NOI18N
 
         lblResultado.setFont(new java.awt.Font("Segoe UI", 1, 48)); // NOI18N
         lblResultado.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
@@ -59,7 +60,7 @@ public class Calculadora extends javax.swing.JFrame {
         lblInformacao.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
         btncalcular.setFont(new java.awt.Font("Segoe UI", 1, 12)); // NOI18N
-        btncalcular.setIcon(new javax.swing.ImageIcon("C:\\Users\\LUID1.7\\Documents\\NetBeansProjects\\prg03luidemanuelsantosdosanjos\\src\\main\\java\\br\\com\\ifba\\atividade03\\images\\calculadora 4.png")); // NOI18N
+        btncalcular.setIcon(new javax.swing.ImageIcon("C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos\\src\\main\\java\\br\\com\\ifba\\atividade03\\images\\calculadora 4.png")); // NOI18N
         btncalcular.setText("CALCULAR");
         btncalcular.addActionListener(this::btncalcularActionPerformed);
 
@@ -83,7 +84,7 @@ public class Calculadora extends javax.swing.JFrame {
                                 .addGap(220, 220, 220)
                                 .addComponent(lblInformacao, javax.swing.GroupLayout.PREFERRED_SIZE, 172, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 1181, Short.MAX_VALUE)
-                        .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 486, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(lblImage2, javax.swing.GroupLayout.PREFERRED_SIZE, 486, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
@@ -102,7 +103,7 @@ public class Calculadora extends javax.swing.JFrame {
                         .addGap(114, 114, 114)
                         .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
-                                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 353, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(lblImage2, javax.swing.GroupLayout.PREFERRED_SIZE, 353, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(29, 29, 29)
                                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                                     .addComponent(jSpinner1, javax.swing.GroupLayout.PREFERRED_SIZE, 35, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -159,9 +160,9 @@ public class Calculadora extends javax.swing.JFrame {
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btncalcular;
-    private javax.swing.JLabel jLabel2;
     private javax.swing.JLabel jLabel4;
     private javax.swing.JSpinner jSpinner1;
+    private javax.swing.JLabel lblImage2;
     private javax.swing.JLabel lblInformacao;
     private javax.swing.JLabel lblInformacao2;
     private javax.swing.JLabel lblInformacao3;
