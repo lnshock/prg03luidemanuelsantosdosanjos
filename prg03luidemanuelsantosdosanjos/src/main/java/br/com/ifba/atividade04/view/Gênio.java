@@ -110,14 +110,15 @@ public class Gênio extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnPalpiteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnPalpiteActionPerformed
-        int  numeroEscolhido = Integer.parseInt(numeroSpinner.getValue().toString());
-        int valorAleatorio = (int) (1 + Math.random() * 5);
-         if (numeroEscolhido == valorAleatorio){
+        int numeroEscolhido = Integer.parseInt(numeroSpinner.getValue().toString()); //Pegar valor do spinner e converter para int    
+        int valorAleatorio = (int) (1 + Math.random() * 5); //Pegar um valor aleátorio entre 1 e 5
+         if (numeroEscolhido == valorAleatorio){ //Verificar se o valor do palpite é igual ao valor aleatorio
                lblBalaoDialogo.setText("Acertou!!");
          }
          
          else{
-              lblBalaoDialogo.setText("<html>Errou!! eu pensei no valor " + valorAleatorio);
+              lblBalaoDialogo.setText("<html>Errou!! eu pensei no valor " + valorAleatorio); //Se valores for diferentes, imprime o valor certo
+              
          }
         
     }//GEN-LAST:event_btnPalpiteActionPerformed
