@@ -90,7 +90,7 @@ public class FatorialTela extends javax.swing.JFrame {
        Fatorial f = new Fatorial();// Cria um objeto da classe Fatorial      
          f.setValor(n); 
            lblFormula.setText(f.getFormula());// Mostra a formula na tela
-             lblResultado.setText(Integer.toString(f.getFatorial()));// Mostra o resultado na tela
+             lblResultado.setText(Integer.toString(f.getFatorial()));// Mostra o resultado na tela  
     }//GEN-LAST:event_btnCalcularActionPerformed
 
     /**

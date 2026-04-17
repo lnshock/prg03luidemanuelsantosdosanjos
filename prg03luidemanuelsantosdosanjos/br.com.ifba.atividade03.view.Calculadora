@@ -16,29 +16,56 @@
 [INFO] 
 [INFO] --- compiler:3.13.0:compile (default-compile) @ prg03luidemanuelsantosdosanjos ---
 [INFO] Recompiling the module because of changed source code.
-[INFO] Compiling 2 source files with javac [debug release 25] to target\classes
-[INFO] -------------------------------------------------------------
-[ERROR] COMPILATION ERROR : 
-[INFO] -------------------------------------------------------------
-[ERROR] /C:/Users/LUID1.7/Documents/GitHub/prg03luidemanuelsantosdosanjos/prg03luidemanuelsantosdosanjos/src/main/java/br/com/ifba/atividade04/view/Gênio.java:[96,1] class, interface, enum, or record expected
-[INFO] 1 error
-[INFO] -------------------------------------------------------------
-[INFO] NETBEANS-ExecEvent:{"exc":{"msg":"Q29tcGlsYXRpb24gZmFpbHVyZQ0KL0M6L1VzZXJzL0xVSUQxLjcvRG9jdW1lbnRzL0dpdEh1Yi9wcmcwM2x1aWRlbWFudWVsc2FudG9zZG9zYW5qb3MvcHJnMDNsdWlkZW1hbnVlbHNhbnRvc2Rvc2Fuam9zL3NyYy9tYWluL2phdmEvYnIvY29tL2lmYmEvYXRpdmlkYWRlMDQvdmlldy9Hw6puaW8uamF2YTpbOTYsMV0gY2xhc3MsIGludGVyZmFjZSwgZW51bSwgb3IgcmVjb3JkIGV4cGVjdGVkDQo="},"mojo":{"phase":"compile","loc":{"col":-1,"ln":-1,"id":"org.apache.maven:maven-core:3.9.11:default-lifecycle-bindings"},"impl":"org.apache.maven.plugin.compiler.CompilerMojo","urls":["file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/maven\/plugins\/maven-compiler-plugin\/3.13.0\/maven-compiler-plugin-3.13.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/maven\/shared\/maven-shared-utils\/3.4.2\/maven-shared-utils-3.4.2.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/commons-io\/commons-io\/2.11.0\/commons-io-2.11.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/maven\/shared\/maven-shared-incremental\/1.1\/maven-shared-incremental-1.1.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-java\/1.2.0\/plexus-java-1.2.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/ow2\/asm\/asm\/9.6\/asm-9.6.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/com\/thoughtworks\/qdox\/qdox\/2.0.3\/qdox-2.0.3.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-compiler-api\/2.15.0\/plexus-compiler-api-2.15.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-compiler-manager\/2.15.0\/plexus-compiler-manager-2.15.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-xml\/3.0.0\/plexus-xml-3.0.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-compiler-javac\/2.15.0\/plexus-compiler-javac-2.15.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-utils\/4.0.0\/plexus-utils-4.0.0.jar"],"goal":"compile","id":"org.apache.maven.plugins:maven-compiler-plugin:3.13.0","source":"LIFECYCLE","prjFile":"C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos","execId":"default-compile"},"type":"MojoFailed"}
+[INFO] Compiling 4 source files with javac [debug release 25] to target\classes
+[INFO] NETBEANS-ExecEvent:{"mojo":{"phase":"compile","loc":{"col":-1,"ln":-1,"id":"org.apache.maven:maven-core:3.9.11:default-lifecycle-bindings"},"impl":"org.apache.maven.plugin.compiler.CompilerMojo","urls":["file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/maven\/plugins\/maven-compiler-plugin\/3.13.0\/maven-compiler-plugin-3.13.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/maven\/shared\/maven-shared-utils\/3.4.2\/maven-shared-utils-3.4.2.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/commons-io\/commons-io\/2.11.0\/commons-io-2.11.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/maven\/shared\/maven-shared-incremental\/1.1\/maven-shared-incremental-1.1.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-java\/1.2.0\/plexus-java-1.2.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/ow2\/asm\/asm\/9.6\/asm-9.6.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/com\/thoughtworks\/qdox\/qdox\/2.0.3\/qdox-2.0.3.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-compiler-api\/2.15.0\/plexus-compiler-api-2.15.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-compiler-manager\/2.15.0\/plexus-compiler-manager-2.15.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-xml\/3.0.0\/plexus-xml-3.0.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-compiler-javac\/2.15.0\/plexus-compiler-javac-2.15.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-utils\/4.0.0\/plexus-utils-4.0.0.jar"],"goal":"compile","id":"org.apache.maven.plugins:maven-compiler-plugin:3.13.0","source":"LIFECYCLE","prjFile":"C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos","execId":"default-compile"},"type":"MojoSucceeded"}
+[INFO] NETBEANS-ExecEvent:{"mojo":{"impl":"org.codehaus.mojo.exec.ExecMojo","goal":"exec","id":"org.codehaus.mojo:exec-maven-plugin:3.5.1","source":"CLI","prjFile":"C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos","execId":"default-cli"},"type":"MojoStarted"}
+[INFO] 
+[INFO] --- exec:3.5.1:exec (default-cli) @ prg03luidemanuelsantosdosanjos ---
+[ERROR] Command execution failed.
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+    at org.apache.commons.exec.DefaultExecutor.executeInternal (DefaultExecutor.java:394)
+    at org.apache.commons.exec.DefaultExecutor.execute (DefaultExecutor.java:292)
+    at org.codehaus.mojo.exec.ExecMojo.executeCommandLine (ExecMojo.java:903)
+    at org.codehaus.mojo.exec.ExecMojo.executeCommandLine (ExecMojo.java:863)
+    at org.codehaus.mojo.exec.ExecMojo.execute (ExecMojo.java:454)
+    at org.apache.maven.plugin.DefaultBuildPluginManager.executeMojo (DefaultBuildPluginManager.java:126)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute2 (MojoExecutor.java:328)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.doExecute (MojoExecutor.java:316)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:212)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:174)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.access$000 (MojoExecutor.java:75)
+    at org.apache.maven.lifecycle.internal.MojoExecutor$1.run (MojoExecutor.java:162)
+    at org.apache.maven.plugin.DefaultMojosExecutionStrategy.execute (DefaultMojosExecutionStrategy.java:39)
+    at org.apache.maven.lifecycle.internal.MojoExecutor.execute (MojoExecutor.java:159)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:105)
+    at org.apache.maven.lifecycle.internal.LifecycleModuleBuilder.buildProject (LifecycleModuleBuilder.java:73)
+    at org.apache.maven.lifecycle.internal.builder.singlethreaded.SingleThreadedBuilder.build (SingleThreadedBuilder.java:53)
+    at org.apache.maven.lifecycle.internal.LifecycleStarter.execute (LifecycleStarter.java:118)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:261)
+    at org.apache.maven.DefaultMaven.doExecute (DefaultMaven.java:173)
+    at org.apache.maven.DefaultMaven.execute (DefaultMaven.java:101)
+    at org.apache.maven.cli.MavenCli.execute (MavenCli.java:906)
+    at org.apache.maven.cli.MavenCli.doMain (MavenCli.java:283)
+    at org.apache.maven.cli.MavenCli.main (MavenCli.java:206)
+    at jdk.internal.reflect.DirectMethodHandleAccessor.invoke (DirectMethodHandleAccessor.java:104)
+    at java.lang.reflect.Method.invoke (Method.java:565)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launchEnhanced (Launcher.java:255)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.launch (Launcher.java:201)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.mainWithExitCode (Launcher.java:361)
+    at org.codehaus.plexus.classworlds.launcher.Launcher.main (Launcher.java:314)
+[INFO] NETBEANS-ExecEvent:{"exc":{"msg":"Q29tbWFuZCBleGVjdXRpb24gZmFpbGVkLg=="},"mojo":{"impl":"org.codehaus.mojo.exec.ExecMojo","urls":["file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/mojo\/exec-maven-plugin\/3.5.1\/exec-maven-plugin-3.5.1.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-utils\/4.0.2\/plexus-utils-4.0.2.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/codehaus\/plexus\/plexus-xml\/3.0.1\/plexus-xml-3.0.1.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/apache\/commons\/commons-exec\/1.5.0\/commons-exec-1.5.0.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/ow2\/asm\/asm\/9.8\/asm-9.8.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/ow2\/asm\/asm-commons\/9.8\/asm-commons-9.8.jar","file:\/C:\/Users\/LUID1.7\/.m2\/repository\/org\/ow2\/asm\/asm-tree\/9.8\/asm-tree-9.8.jar"],"goal":"exec","id":"org.codehaus.mojo:exec-maven-plugin:3.5.1","source":"CLI","prjFile":"C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos","execId":"default-cli"},"type":"MojoFailed"}
 [INFO] NETBEANS-ExecEvent:{"prj":{"file":"C:\\Users\\LUID1.7\\Documents\\GitHub\\prg03luidemanuelsantosdosanjos\\prg03luidemanuelsantosdosanjos","id":"com.mycompany:prg03luidemanuelsantosdosanjos:1.0-SNAPSHOT"},"type":"ProjectFailed"}
 [INFO] NETBEANS-ExecEvent:{"prjcount":1,"type":"SessionEnded"}
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD FAILURE
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  3.188 s
-[INFO] Finished at: 2026-03-30T03:31:23-03:00
+[INFO] Total time:  4.441 s
+[INFO] Finished at: 2026-04-13T11:01:59-03:00
 [INFO] ------------------------------------------------------------------------
-[ERROR] Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project prg03luidemanuelsantosdosanjos: Compilation failure
-[ERROR] /C:/Users/LUID1.7/Documents/GitHub/prg03luidemanuelsantosdosanjos/prg03luidemanuelsantosdosanjos/src/main/java/br/com/ifba/atividade04/view/Gênio.java:[96,1] class, interface, enum, or record expected
-[ERROR] 
-[ERROR] -> [Help 1]
+[ERROR] Failed to execute goal org.codehaus.mojo:exec-maven-plugin:3.5.1:exec (default-cli) on project prg03luidemanuelsantosdosanjos: Command execution failed.: Process exited with an error: 1 (Exit value: 1) -> [Help 1]
 [ERROR] 
 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
 [ERROR] 
 [ERROR] For more information about the errors and possible solutions, please read the following articles:
-[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
